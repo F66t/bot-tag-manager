@@ -20,7 +20,7 @@ A simple, multi-threaded Discord bot designed to manage roles based on Discord C
 
 3. **Run it:**
    ```bash
-   npm start
+   node . 
    ```
 
 ## Configuration Guide (`config.js`)
