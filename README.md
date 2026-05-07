@@ -37,6 +37,8 @@ You need the exact `tag` and `badge` hash for the bot to work.
 2. Type `!check @user` or `!check ID`.
 3. The bot will reply with a JSON block. Look for the `"tag"` and `"badge"` values.
 
+![How to get tag and badge](guide.png)
+
 ### Method 2: Inspect Element
 1. Open Discord in your browser (Chrome/Edge).
 2. Press `F12` -> **Network** tab.
