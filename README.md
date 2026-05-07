@@ -39,6 +39,12 @@ You need the exact `tag` and `badge` hash for the bot to work.
 
 ![How to get tag and badge](guide.png)
 
+Example of what to put in `config.js`:
+```javascript
+tag: "ϨⲔⲨ",
+badge: "d0b4a03d1ab77651bc3a80de29f4584a",
+```
+
 ### Method 2: Inspect Element
 1. Open Discord in your browser (Chrome/Edge).
 2. Press `F12` -> **Network** tab.
