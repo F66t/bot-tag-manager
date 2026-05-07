@@ -175,6 +175,8 @@ class Main {
             if (msg.author.bot || !msg.guild) return;
 
             if (msg.content.startsWith("!check")) {
+                if (!msg.member.permissions.has("Administrator")) return;
+                
                 var id = msg.content.split(" ")[1]?.replace(/[<@!>]/g, "") || msg.author.id;
                 var data = await fetchUser(this.token, id, null, true);
                 if (!data) return msg.reply("User not found.");

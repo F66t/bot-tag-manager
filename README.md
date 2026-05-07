@@ -36,6 +36,7 @@ You need the exact `tag` and `badge` hash for the bot to work.
 1. Have someone with the desired clan tag send a message.
 2. Type `!check @user` or `!check ID`.
 3. The bot will reply with a JSON block. Look for the `"tag"` and `"badge"` values.
+   - **Note:** Only users with **Administrator** permission can use this command.
 
 ![How to get tag and badge](guide.png)
 
